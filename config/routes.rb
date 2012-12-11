@@ -1,4 +1,11 @@
 TodoList::Application.routes.draw do
+
+  scope "(:locale)", :locale => /en|ru|ua/ do
+    # resources :projects
+  end
+
+  # match '/:locale' => 'dashboard#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

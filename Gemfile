@@ -43,10 +43,10 @@ gem 'foreman'
 gem 'thin'
 gem 'rails_autolink'
 gem 'haml-rails'
+gem 'newrelic_rpm'
+gem 'heroku'
 # gem 'pjax_rails'
-# gem 'heroku'
 # gem 'will_paginate', '~> 3.0'
-# gem 'newrelic_rpm'
 # gem 'devise'
 
 group :development do
